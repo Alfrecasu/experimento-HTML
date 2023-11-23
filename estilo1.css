@@ -1,0 +1,35 @@
+.boton_activo{
+    color: wheat;
+    background-color: green;
+    border: 5px solid red;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.contenedor1{
+    background-color: aquamarine;
+    }
+
+@media (max-width: 300px) {
+    /* se activa cuando la página tenga un minimo de 300px */
+    .contenedor1{
+        margin: 20px 20px 20px 20px;
+    }
+}
+    
+@media (min-width: 301px) and (max-width: 600px) {
+    /* se activa cuando la página tenga un minimo de 301px y se desactiva cuando llega a 600px */
+    .contenedor1{
+        margin: 20px 25% 25% 25%;
+}
+}
+
+@media (min-width: 601px) {
+    /* se activa cuando la página tenga un minimo de 601px */
+    .contenedor1{
+    background-color: grey;
+    }
+}
+
